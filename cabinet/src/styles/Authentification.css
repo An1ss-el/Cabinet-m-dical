@@ -1,0 +1,87 @@
+:root {
+    --blue: #3B94C9;
+    --white: #FFFFFF;
+    --grey: #4D4D4E;
+    --text: 'Helvetica Neue'
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+}
+
+.logo {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.form {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#user {
+    width: 366px;
+    height: 95.4px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 60px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+}
+
+span {
+    color: var(--grey);
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+#eye {
+    color: var(--grey);
+    background: 0;
+    border: 0;
+    height: 30px;
+    font-size: 20px;
+}
+
+#eye:hover {
+    cursor: pointer;
+}
+
+submit {
+    height: 55px;
+    width: 310px;
+    background: var(--blue);
+    color: var(--white);
+    font-family: var(--text);
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+submit:hover {
+    cursor: pointer;
+}

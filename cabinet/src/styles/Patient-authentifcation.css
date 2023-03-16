@@ -1,0 +1,124 @@
+:root {
+    --blue: #3B94C9;
+    --white: #FFFFFF;
+    --grey: #4D4D4E;
+    --text1: 'Helvetica Neue';
+    --text2: verdana
+}
+
+.container {
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--white);
+}
+
+.logo {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.form {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#user {
+    width: 250px;
+    height: 80px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 60px;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+}
+
+span {
+    color: var(--grey);
+    font-size: 17px;
+}
+
+#pass{
+    width: 250px;
+    height: 80px;
+    margin-right: 4px;
+}
+
+#eye {
+    color: var(--grey);
+    background: 0;
+    border: 0;
+    height: 30px;
+    width: 22px;
+}
+
+#eye:hover {
+    cursor: pointer;
+}
+
+#a{
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30px;
+    font-size: small
+}
+
+#a a{
+    text-decoration: none;
+    color: var(--grey);
+    cursor: pointer;
+    font-family: var(--text2);
+}
+
+submit {
+    height: 50px;
+    width: 225px;
+    background: var(--blue);
+    color: var(--white);
+    font-family: var(--text);
+    border-radius: 10px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+submit:hover {
+    cursor: pointer;
+}
+
+#account{
+    width: 200px;
+}
+#account p {
+    font-size: small;
+    font-family: var(--text2);
+}
+#account a{
+    font-size: small;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--text2);
+}
