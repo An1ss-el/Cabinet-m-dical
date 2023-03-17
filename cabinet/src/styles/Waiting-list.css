@@ -1,9 +1,7 @@
 :root {
-    --dark-grey: #4D4D4E;
     --grey: #E2E2E2;
     --blue: #3B94C9;
     --white: #FFFFFF;
-    --red: #850606;
     --title: 'Helvetica Neue';
     --text: Verdana;
 }
@@ -45,7 +43,7 @@
     width: 55px;
 }
 
-main {
+#header {
     height: 130px;
     width: calc(100% - 80px);
     position: absolute;
@@ -55,14 +53,13 @@ main {
     flex-wrap: wrap;
 }
 
-main h1 {
+#header h1 {
     margin-top: 40px;
-    font-family: var(--title);
 }
 
-#waiting {
-    margin-top: 20px;
-    margin-left: 30px;
+#calender {
+    margin-top: 10px;
+    margin-left: 15px;
     height: 120px;
     width: 120px;
 }
@@ -106,4 +103,127 @@ main h1 {
 #container h2 {
     font-family: var(--title);
     text-align: center;
+}
+
+#inputs {
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#inputs input {
+    height: 25px;
+    width: 160px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#search {
+    width: calc(100% - 30px);
+    height: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid var(--blue);
+    margin-left: 15px;
+}
+
+#search button {
+    float: right;
+    color: var(--white);
+    background: var(--blue);
+    border: solid var(--blue);
+    width: 110px;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#search button:hover {
+    cursor: pointer;
+}
+
+#container2{
+    height: 50px;
+    width: 100%;
+    margin: 0 7px 0 22px;
+    background: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container2 h3,#container2 h3 {
+    font-weight: 300;
+}
+.table1 {
+    margin: 35px 7px 0 24px;
+    width: calc(100% - 30px);
+    
+}
+
+table,
+th,
+td {
+    border: 0.5px solid rgba(112, 112, 112, 0.355);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    font-family: var(--text);
+    font-size: 16px;
+    background: var(--grey);
+}
+
+th {
+    height: 20px;
+    font-family: var(--text);
+    font-size: 13px;
+    font-weight: 600;
+    background: #ffffffbc;
+}
+
+td {
+    font-size: 13px;
+}
+
+td a {
+    opacity: 1;
+}
+
+td a :hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+td a :not(:hover) {
+    opacity: 0.5;
+}
+
+td img {
+    width: 20px;
+    height: 20px;
+}
+
+#action {
+    width: 80px;
+}
+
+#checkbox{
+    width: 17px;
+    height: 17px;
+}
+
+#container3{
+    border-top: 2px solid var(--blue);
+    height: 50px;
+    width: 100%;
+    margin: 40px 7px 0 22px;
+    background: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

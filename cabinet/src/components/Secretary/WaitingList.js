@@ -18,12 +18,11 @@ function WaitingList() {
         <a className='links' href='#' > <img src={patient} alt='patient-icon' /> </a>
         <a className='links' href='#' > <img src={calendar} alt='calendar-icon' /> </a>
         <a className='links' href='#' > <img src={waiting} alt='waiting-icon' /> </a>
-        <a className='links' href='#' > <img src={message} alt='waiting-icon' /> </a>
         <a id='powerOff' href='#' > <img src={PowerOff} alt='powerOff-icon' /> </a>
       </div>
       <div id='header'>
         <img id='calender' src={waiting} alt="Logo" />
-        <h1>Espace medecin</h1>
+        <h1>Espace secrétaire</h1>
         <img id='logo' src={Logo} alt="Logo" />
         <div id='container'>
           <a id='add-calendar' href='#' > <img src={waitingList} alt="patient-icon-add" /> </a>
