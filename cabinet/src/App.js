@@ -6,13 +6,16 @@ import React from 'react';
 // import AppointmentD from './components/Docoter/Appointment';
 // import PatientAuthentification from './Patient/Authentification'
 // import PatientRecordD from './components/Docoter/PatientRecord'
-import PatientRecordS from './components/Secretary/PatientRecord'
+// import PatientRecordS from './components/Secretary/PatientRecord'
 // import WaitingListD from './components/Docoter/WaitingList';
 // import WaitingListS from './components/Secretary/WaitingList';
+// import ConsultationListS from './components/Secretary/ConsultationList'
+// import ConsultationListD from './components/Docoter/ConsultationList'
+import RecordD from './components/Docoter/Record'
 function App() {
   return (
     <div>
-      <PatientRecordS/>
+      <RecordD/>
     </div>
   );
 }

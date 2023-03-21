@@ -92,91 +92,13 @@ function Record() {
                         <label for="dateCre">Date de création:</label>
                         <input type='date' name='dateCre' id='dateCre' />
                     </section>
-                    <div className='section'>
-                        <h3>Historique DT</h3>
+                    {/* <div className='section'>
+                        <h3>Paiment</h3>
                     </div>
                     <section id='dt'>
-                        <label for='dateDt'>Date de découverte:</label>
-                        <input type='date' name='dateDt' id='dateDt' /><br></br>
-                        <label for='shéma'>Shéma actuel:</label>
-                        <input type='text' name='shéma' id='shéma' /><br></br>
-                        <label for='autres'>Autres:</label>
-                        <input type='text' name='autres' id='autres' />
-                    </section>
-                    <div className='section'>
-                        <h3>Les antécédents</h3>
-                    </div>
-                    <section id='antecedents'>
-                        <label for='atcdM'>ATCD Medicaux:</label>
-                        <input type='text' name='atcdM' id='atcdM' /><br></br>
-                        <label for='atcdC'>ATCD Chirugicaux:</label>
-                        <input type='text' name='atcdC' id='atcdC' /><br></br>
-                        <label for='atcdF'>ATCD Familiaux:</label>
-                        <input type='text' name='atcdF' id='atcdF' /><br></br>
-                        <label for='facteur'>Facteur du Risque:</label>
-                        <input type='text' name='facteur' id='facteur' /><br></br>
-                        <label for='allergies'>Allergies:</label>
-                        <input type='text' name='allergies' id='allergies' /><br></br>
-                        <label for='traitement'>Traitement:</label>
-                        <input type='text' name='traitement' id='traitement' />
-                    </section>
-                    <div className='section'>
-                        <h3>Examen Clinique</h3>
-                    </div>
-                    <section id='examen'>
-                        <label for='poids'>Poids:</label>
-                        <input type='number' name='poids' id='poids' /><br></br>
-                        <label for='ces'>CES:</label>
-                        <input type='text' name='ces' id='ces' /><br></br>
-                        <label for='pieds'>Examen des Pieds:</label>
-                        <input type='text' name='pieds' id='pieds' /><br></br>
-                        <label for='feherol'>Examen Feherol:</label>
-                        <input type='text' name='feherol' id='feherol' /><br></br>
-                        <label for='IIO'>IIO:</label>
-                        <input type='text' name='IIO' id='IIO' /><br></br>
-                        <label for='signe'>Signe Arteriopathique:</label>
-                        <input type='text' name='IIO' id='IIO' /><br></br>
-                        <label for='secs' >SECS:</label>
-                        <input type='text' name='secs' id='secs' /><br></br>
-                        <label for='autres' >Autres:</label>
-                        <input type='text' name='autres2' id='autres2' />
-                    </section>
-                    <div className='section'>
-                        <h3>Microangiopathie</h3>
-                    </div>
-                    <section id='micro'>
-                        <label for='hypo'>hypotension Orthostatique:</label>
-                        <input type='text' name='hypo' id='hypo' /><br></br>
-                        <label for='ndsd'>NDSD:</label>
-                        <input type='text' name='ndsd' id='ndsd' /><br></br>
-                        <label for='nerfs'>Nerfs Crâniens:</label>
-                        <input type='text' name='nerfs' id='nerfs' /><br></br>
-                        <label for='gros'>Gros Hypocrite:</label>
-                        <input type='text' name='gros' id='gros' /><br></br>
-                        <label for='dysurie'>Dysurie:</label>
-                        <input type='text' name='dysurie' id='dysurie' /><br></br>
-                        <label for='hypo'>Hypoglycémie Non Ressentie:</label>
-                        <input type='text' name='hypo' id='hypo' /><br></br>
-                    </section>
-                    <div className='section'>
-                        <h3>Facteur du risque CV</h3>
-                    </div>
-                    <section id='facteur-cv'>
-                        <label for='hta'>HTA:</label>
-                        <input type='text' name='hta' id='hta' /><br></br>
-                        <label for='dysli'>Dyslipidémie:</label>
-                        <input type='text' name='dysli' id='dysli' /><br></br>
-                        <label for='avc'>AVC:</label>
-                        <input type='text' name='avc' id='avc' /><br></br>
-                        <label for='mb'>Artérite des MbInf:</label>
-                        <input type='text' name='mb' id='mb' /><br></br>
-                        <label for='aap'>AAP:</label>
-                        <input type='text' name='aap' id='aap' /><br></br>
-                        <label for='mb'>Goutte:</label>
-                        <input type='text' name='goutte' id='goutte' /><br></br>
-                        <label for='cardio'>Insuffisance Cardiaque:</label>
-                        <input type='text' name='cardio' id='cardio' /><br></br>
-                    </section>
+                        <label for='payer'>Le montant à payer:</label>
+                        <input type='number' name='payer' id='payer' /><br></br>
+                    </section> */}
                     <div id='btn'>
                         <submit>Enregistrer</submit>
                         <button type='reset'>Vider</button>

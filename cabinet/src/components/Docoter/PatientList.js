@@ -8,6 +8,7 @@ import waiting from '../../assets/waiting.png'
 import message from '../../assets/Text-message-icon.png'
 import PowerOff from '../../assets/PowerOff.png'
 import Logo from '../../assets/Logo.png'
+import edit from '../../assets/editor-icon.png'
 
 function Docter() {
     return (
@@ -39,7 +40,7 @@ function Docter() {
                 <div id='table'>
                     <table>
                         <tr>
-                            <th></th>
+                            <th>Civilité</th>
                             <th>Nom</th>
                             <th>Prénom</th>
                             <th>Âge</th>
@@ -60,7 +61,8 @@ function Docter() {
                             <td>CNSS</td>
                             <td>Casablanca</td>
                             <td id='action'>
-                                <a href='#' > <img src={patient} alt="patient-icon" /> </a>
+                                <a href='#' > <img src={patientNote} alt="patient-icon" /> </a>
+                                <a href='#' > <img src={edit} alt="patient-icon" /> </a>
                             </td>
                         </tr>
 

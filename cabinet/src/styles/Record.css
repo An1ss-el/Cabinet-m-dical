@@ -1,0 +1,205 @@
+:root {
+    --dark-grey: #4D4D4E;
+    --grey: #E2E2E2;
+    --blue: #3B94C9;
+    --white: #FFFFFF;
+    --red: #850606;
+    --title: 'Helvetica Neue';
+    --text: Verdana;
+}
+
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links img {
+    height: 55px;
+    width: 55px;
+    opacity: 1;
+    /* Default opacity is 1 */
+
+}
+
+.links img :hover {
+    cursor: pointer;
+    opacity: 1;
+    /* When the mouse hovers over the element, the opacity is 1 */
+}
+
+.links img:not(:hover) {
+    opacity: 0.5;
+    /* When the mouse leaves the element, the opacity is 0.5 */
+}
+
+#powerOff img {
+    height: 55px;
+    width: 55px;
+}
+
+main {
+    height: 130px;
+    width: calc(100% - 80px);
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    margin-top: 40px;
+    font-family: var(--title);
+}
+
+#patient {
+    margin-top: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#container {
+    height: 65px;
+    width: 100%;
+    width: calc(100% - 80px);
+    margin-top: 15px;
+    margin-left: 15px;
+    border-top: 2px solid var(--blue);
+    border-bottom: 2px solid var(--grey);
+}
+
+#container a img {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    padding-top: 10px;
+    float: left;
+}
+
+#container a {
+    opacity: 1;
+}
+
+#container a :hover {
+    opacity: 1;
+}
+
+#container a :not(:hover) {
+    opacity: 0.5;
+}
+
+#container h2,h3 {
+    font-family: var(--title);
+    color: var(--blue);
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+.section {
+    height: 35px;
+    width: 100%;
+    border-top: 3px solid var(--blue);
+    margin: 0 7px 0 22px;
+    background: var(--grey);
+    display: flex;
+    align-items: center;
+    margin: 30px 0 15px 15px;
+}
+
+.section h3 {
+    color: var(--dark-grey);
+    font-weight: 400;
+    font-family: var(--title);
+    margin-left: 15px;
+    text-transform: none;
+}
+
+form {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+section {
+    margin-left: 15px;
+}
+
+#infos p , #adresse p , #dt p {
+    margin-left: 8px;
+    font-family: var(--text);
+    font-size: medium;
+    margin-right: 3px;
+    display: inline;
+}
+
+select{
+    margin-left: 5px;
+}
+
+.infosP {
+    display: inline;
+    font-family: var(--text);
+    font-size: small;
+    color: var(--dark-grey);
+    margin-left: 5px;
+}
+
+#autres{
+    width: calc(100% - 10px);
+}
+
+#btn{
+    margin: 30px 0 30px 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+submit {
+    height: 40px;
+    width: 120px;
+    background: var(--blue);
+    color: var(--white);
+    font-family: var(--text);
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+submit:hover {
+    cursor: pointer;
+}
+
+button {
+    margin-left: 30px;
+    height: 40px;
+    width: 120px;
+    background: var(--red);
+    color: var(--white);
+    border: var(--red);
+    font-family: var(--text);
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
